@@ -1,1 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T o T</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand text-">TRIP TO TRAVEL</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">หน้าแรก</a>
+            </li>
+            <li class="nav-item">
+              <a href="#่job" class="nav-link">ทริปเที่ยว</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#tripplus">เพิ่มทริปเที่ยว</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <section id="slider">
+      <div class="carousel slide" data-bs-rid="carousel" id="mySlider">
+        <ol class="carousel-indicators">
+          <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+          <button data-bs-target="#mySlider" data-bs-slide-to="1" ></button>
+          <button data-bs-target="#mySlider" data-bs-slide-to="2" ></button>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3; text-primary"></h1>
+                <p class="text-light">เกาะเต่า เป็นเกาะเล็ก ๆ ตั้งอยู่ในอำเภอเกาะพะงัน จังหวัดสุราษฎร์ธานี เป็นเกาะทะเลใต้ฝั่งอ่าวไทยมีรูปร่างโค้งเว้าคล้ายเมล็ดถั่ว ห่างจากเกาะพะงันไปทางทิศเหนือประมาณ 45 กิโลเมตร มีเนื้อที่ 21 ตารางกิโลเมตร โดยเกาะเต่านั้นใกล้กับเกาะนางยวนมาก ๆ เลย เรียกว่ามาเกาะเต่าแล้วก็ต้องแวะไปเกาะนางยวนเพื่อขึ้นไปบนจุดชมวิวอันเลื่องชื่อเพื่อชมทะเลแหวกจากมุมสูงอีกด้วย</p>
+              </div>
+            </div>            
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3"></h1>
+                <p class="text-dark ">ตั้งอยู่ทางตอนเหนือสุดของ อุทยานแห่งชาติหมู่เกาะสิมิลัน และอยู่ไม่ไกลจาก หมู่เกาะสุรินทร์ มากนัก และถูกพบครั้งแรกโดยชายที่ชื่อ ตาชัย ทำให้ตั้งชื่อเกาะตามคนค้นพบว่า เกาะตาชัย</p>
+              </div>
+            </div> 
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3"></h1>
+                <p> แม่ฮ่องสอน จังหวัดท่องเที่ยวอันทรงเสน่ห์ มีสถานที่ท่องเที่ยวทางธรรมชาติที่งดงามบริสุทธิ์  วัดวาอารามที่มีศิลปะงดงาม  มีความหลากหลายทางวัฒนธรรมให้ได้สัมผัส แม่ฮ่องสอนได้ชื่อว่า เมืองสามหมอก เนื่องจากเป็นเมืองที่รายล้อมด้วยภูเขา สลับซับซ้อน ทอดขนานไปกับทิวเขาถนนธงชัยและทิวเขาแดนลาว ดังนั้นจึงถูกปกคลุมด้วยหมอกตลอดทั้งปี มีทิวทัศน์สวยงามตามธรรมชาติ</p>
+              </div>
+            </div> 
+          </div>
+
+          <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="่job" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center mb-5">
+            <i class="fa-regular fa-map fa-3x mb-2"></i>
+            <h2>รูปภาพประกอบ</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item ">1. เกาะเต่า</a>
+              <a href="#" class="list-group-item ">2. เกาะตาชัย</a>
+              <a href="#" class="list-group-item ">3. แม่ฮ่องสอน</a>
+            </div>
+          </div>
+          <div class="col-md-5 text-center mb-5">
+            <i class="fa-solid fa-house-flood-water fa-3x mb-2"></i>
+            <h3>วิดีโอ</h3>
+            <div class="list-group">
+              <a href="#" class="list-group-item ">1. เกาะเต่า</a>
+              <a href="#" class="list-group-item ">2. เกาะตาชัย</a>
+              <a href="#" class="list-group-item ">3. แม่ฮ่องสอน</a>
+            </div>
+          </div>
+
+        </div>
+      </div>    
+    </section>
+
+    <section id="about">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5 text-light">
+              <h1>เกี่ยวกับเรา</h1>
+              <p>4 สหาย เพื่อนสนิท โรงเรียนกำแพงวิทยา</p>
+            </div>
+            <div class="col text-light">
+              <p>Copyright &copy; THIN LEE Official 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Modal -->
+  <div class="modal" id="tripplus">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-little">เพิ่มทริปเที่ยว</h4>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label>จังหวัด</label>
+              <input type="text" placeholder="ป้อนจังหวัดที่คุณอยากไป" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>สถานที่ ที่คุณอยากไป</label>
+              <input type="text" placeholder="ใส่ชื่อสถานที่" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+          <button class="btn btn-primary">ส่งข้อมูล</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

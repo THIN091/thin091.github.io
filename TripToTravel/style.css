@@ -1,0 +1,42 @@
+.carousel-item{
+    height: 600px;
+}
+.carousel-image-1{
+    background-image: url(/TAO/Pro1.jpg);
+    background-size: 100% 100%;
+}
+.carousel-image-2{
+    background-image: url(/TACHAI/Pro2.jpg);
+    background-size: 100% 100%;
+}
+.carousel-image-3{
+    background-image: url(/MEAHONGSON/Pro3.jpg);
+    background-size: 100% 100%;
+}
+
+.list-group-item{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url("bk-water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(17, 18, 19);
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
