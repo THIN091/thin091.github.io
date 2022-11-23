@@ -65,7 +65,7 @@ body
     width: 100%;
     display: flex;
     text-decoration: none;
-    color: var(--white);
+    color: var(--black1);
 }
 .navigation ul li:hover a
 {
